@@ -1,0 +1,116 @@
+
+
+.wrapper {
+  padding-top: 20px;
+  min-height: 100%;
+  min-width: 0;
+  width: 428px;
+  height: 522px;
+  overflow: hidden;
+}
+.image-slider__image img, .image-slider-2__image img, .image-slider-3__image img {
+  max-width: 100%;
+  width: 403px;
+  height: 250px;
+  border-radius: 12px;
+  left: 10px;
+  position: absolute;
+  margin-left: 10px;
+}
+.image-slider__image, .image-slider-2__image, .image-slider-3__image {
+  text-align: center;
+
+}
+.image-slider, .image-slider-2, .image-slider-3 {
+  padding-bottom: 10px;
+}
+
+.image-mini-slider__image img, .image-mini-slider-2__image img, .image-mini-slider-3__image img {
+  width: 82px;
+  height: 61px;
+  border-radius: 10px;
+  position: absolute;
+  left: 20px;
+  top: 255px;
+}
+.image-mini-slider__image, .image-mini-slider-2__image, .image-mini-slider-3__image {
+  position: relative;
+  padding: 15px 70px 15px 0;
+  cursor: pointer;
+}
+
+#swiper-button-prev, #swiper-button-next, #swiper-button-prev-2, #swiper-button-next-2, #swiper-button-prev-3, #swiper-button-next-3 {
+  width: 41px;
+  height: 41px;
+  border-radius: 20px;
+
+}
+
+.arrows-slider-place, .arrows-slider-place-2, .arrows-slider-place-3 {
+  display: flex;
+  flex-direction: row;
+  position: relative!important;
+  margin-top: 325px;
+  margin-right: 150px;
+  margin-left: 150px;
+  z-index: 1;
+}
+#map {
+  width:1150px;
+  height:454px;
+  border-radius:20px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.input {
+  outline: none;
+}
+@media (min-width: 320px) and (max-width: 560px) {
+  .image-slider__image img, .image-slider-2__image img, .image-slider-3__image img {
+    width: 280px;
+    height: 250px;
+    border-radius: 10px;
+    position: relative;
+    margin-right: 30px;!important;
+  }
+
+  .wrapper {
+    width: 300px;
+    height: 321px;
+    position: relative;
+    margin: auto;
+  }
+  .image-slider__image, .image-slider-2__image, .image-slider-3__image {
+    display: flex;
+    justify-content: center;
+  }
+  .arrows-slider-place, .arrows-slider-place-2, .arrows-slider-place-3 {
+    margin: auto;
+    padding-top: 20px;
+  }
+  .swiper-button-next {
+    margin-right: 90px;
+
+  }
+  .swiper-button-prev {
+    margin-left: 90px;
+  }
+  .image-mini-slider__image img, .image-mini-slider-2__image img, .image-mini-slider-3__image img {
+    position: relative;
+    top: 0;
+    left: 10px;
+    width: 82px;
+    height: 61px;
+  }
+  .image-mini-slider__wrapper {
+    margin: auto;
+    width: 280px;
+  }
+  #map {
+    width:300px;
+    height:230px;
+    border-radius:20px;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+}

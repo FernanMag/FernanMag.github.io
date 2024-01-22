@@ -1,0 +1,123 @@
+
+@font-family {
+  font-family: 'Inter-Regular';
+  src: local('Inter-Regular');
+  url("./fonts/Inter-Regular.woff");
+}
+
+@font-face {
+  font-family: 'Inter-SemiBold';
+  src: local('Inter-SemiBold');
+  url("./fonts/Inter-SemiBold.woff");
+}
+
+@font-face {
+  font-family: 'BebasNeueBold';
+  src: local('BebasNeueBold');
+url("./fonts/BebasNeueBold.woff");
+}
+
+html {
+  color: black;
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: "Inter-Regular", "Inter-SemiBold", sans-serif;
+  font-weight: 400;
+}
+
+.forth-block-place {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+
+}
+.forth-block {
+  width: 1191px;
+  height: 562px;
+  background-color: #F3F2FF;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+.forth-block-slider {
+  width: 443px;
+  height: 522px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-left: 20px;
+  overflow: hidden;
+}
+.forth-block-text {
+  width: 688px;
+  height: 522px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 20px
+}
+.forth-block-text-first {
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 30px;
+  color: #000000;
+}
+.first-block-text-bold {
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 30px;
+  line-height: 15px;
+}
+.forth-block-text-title{
+  color:#312783;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 30px;
+  margin-bottom: -10px;
+}
+
+
+.group-training-title {
+  text-transform: uppercase;
+  color: white;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 37.4px;
+  margin-left: 20px;
+}
+.group-training {
+  background-color: #312783;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.forth-block-list {
+  margin-bottom: 30px;
+}
+
+@media (min-width: 320px) and (max-width: 560px) {
+  .forth-block {
+    width: 330px;
+    height: 898px;
+    flex-direction: column;
+    margin: auto;
+  }
+  .forth-block-slider {
+    width: 310px;
+    height: 553px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 10px auto;
+  }
+  .forth-block-text {
+    width: 310px;
+    height: 298px;
+    margin: auto;
+  }
+}

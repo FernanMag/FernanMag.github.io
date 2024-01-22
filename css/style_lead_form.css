@@ -1,0 +1,154 @@
+#popup-lead-form {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+#popup-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#popup-lead-form.open {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  transition: opacity 0.3s;
+  pointer-events: all;
+  overflow-y: auto;
+  z-index: 2;
+}
+.lead_form_styles {
+  width: 550px;
+  height: 385px;
+  border-radius: 20px;
+  background-color: #F3F2FF;
+}
+
+.close-popup-lead-form {
+  cursor: pointer;
+  margin-top: 20px;
+  margin-left: 470px;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+}
+
+.lead-form-blocks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-gap: 10px;
+  z-index: 2;
+}
+.lead-form-title {
+  font-size: 49px;
+  font-weight: 700;
+  line-height: 54.9px;
+  color: #CF2315;
+  letter-spacing: -2px;
+  margin-top: 20px;
+}
+.lead-form-name {
+  border: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #8D8D8D;
+  padding-left: 20px;
+  width: 450px;
+  height: 49px;
+  border-radius: 15px;
+}
+.lead-form-phone {
+   border: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #8D8D8D;
+  padding-left: 20px;
+  width: 450px;
+  height: 49px;
+  border-radius: 15px;
+ }
+
+.lead-form-btn-send-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #CF2315;
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -1px;
+  width: 470px;
+  height: 59px;
+  border-radius: 79px;
+}
+.confidence-page-link {
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15.6px;
+  color: #8D8D8D
+}
+.confidence-page-link a {
+  text-decoration: none;
+  color: #000000
+}
+.lead-form-name, .lead-form-phone {
+  outline: 0;
+}
+@media (min-width: 320px) and (max-width: 560px) {
+  .lead_form_styles {
+    width: 330px;
+    height: 330px;
+  }
+  .lead-form-name {
+    padding-left: 10px;
+    width: 280px;
+    height: 49px;
+  }
+  .lead-form-phone {
+    padding-left: 10px;
+    width: 280px;
+    height: 49px;
+  }
+  .lead-form-btn-send-text {
+    width: 290px;
+    height: 39px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+  }
+  .lead-form-title {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 41.8px;
+    margin-top: 30px;
+  }
+  .confidence-page-link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15.6px;
+    width: 270px;
+    text-align: center;
+  }
+  .close-popup-lead-form {
+    margin-left: 280px;
+  }
+}

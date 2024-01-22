@@ -1,0 +1,219 @@
+
+@font-family {
+  font-family: 'Inter-Regular';
+  src: local('Inter-Regular');
+  url("./fonts/Inter-Regular.woff");
+}
+
+@font-face {
+  font-family: 'Inter-SemiBold';
+  src: local('Inter-SemiBold');
+  url("./fonts/Inter-SemiBold.woff");
+}
+
+@font-face {
+  font-family: 'BebasNeueBold';
+  src: local('BebasNeueBold');
+url("./fonts/BebasNeueBold.woff");
+}
+
+html {
+  color: black;
+  font-size: 1em;
+  line-height: 1.4;
+  font-family: "Inter-Regular", "Inter-SemiBold", sans-serif;
+  font-weight: 400;
+}
+
+.third-block-place {
+  display: flex;
+  justify-content: center;
+  margin-top: 180px;
+}
+.third-block {
+  width: 1191px;
+  height: 725px;
+  background-color: #F3F2FF;
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+.third-block-slider {
+  width: 443px;
+  height: 522px;
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-left: 20px;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.third-block-text {
+  width: 688px;
+  height: 685px;
+  background-color: #FFFFFF;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+.third-block-text-first {
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 30px;
+  color: #000000;
+}
+.first-block-text-bold {
+  font-weight: 600;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 30px;
+  line-height: 15px;
+}
+.third-block-text-title{
+  color:#312783;
+  font-weight: 600;
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 30px;
+  margin-bottom: -10px;
+}
+.ul {
+  font-weight: 400;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-right: 30px;
+  color: #000000;
+
+}
+.third-block-text-gap {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 18px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+.third-block-list-align {
+  width: 648px;
+  height: 263px;
+  display: flex;
+  align-items: baseline;
+  margin-bottom: -30px;
+}
+.third-block-list-2 {
+  margin-left: 20px;
+}
+.first-block-button {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  font-weight: 400;
+  border: 1px solid #CF2315;
+  margin-left: 20px;
+  border-radius: 79px;
+  width: 159px;
+  height: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.pool-title {
+  text-transform: uppercase;
+  color: white;
+  font-size: 34px;
+  font-weight: 700;
+  margin-left: 20px;
+  line-height: 37.4px;
+}
+.swimming-pool {
+  background-color: #312783;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+@media (min-width: 320px) and (max-width: 560px) {
+  .third-block {
+    width: 330px;
+    height: 1438px;
+    background-color: #F3F2FF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .third-block-place {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: -1px;
+  }
+  .third-block-slider {
+    width: 310px;
+    height: 538px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 10px auto;
+  }
+  .swimming-pool {
+    margin: 15px 15px 0 15px;
+  }
+  .third-block-text {
+    position: relative;
+    border-radius: 15px;
+    width: 310px;
+    height: 890px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .first-block-text-bold {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 15.2px;
+  }
+  .third-block-text-first {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+  }
+  .third-block-text-title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16.94px;
+    color: #312783;
+  }
+  .third-block-list, .third-block-list-2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.94px;
+    margin: 0;
+  }
+  .third-block-list-2 {
+    position: relative;
+    margin-top: -39px;
+  }
+
+  .third-block-list-align {
+    flex-direction: column;
+    align-items: center;
+    width: 280px;
+    height: 361px;
+    gap: 10px;
+    margin: 0;
+  }
+  .first-block-button a {
+    width: 117px;
+    height: 29px;
+  }
+  .first-block-button {
+    margin-bottom: 10px;
+  }
+}
+
+
