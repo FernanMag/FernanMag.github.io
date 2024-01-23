@@ -28,7 +28,7 @@ html {
 }
 .fifth-block {
   width: 1191px;
-  height: 786px;
+  height: 831px;
   background-color: #F3F2FF;
   border-radius: 20px;
   display: flex;
@@ -43,12 +43,13 @@ html {
   margin-left: 20px
 }
 .fifth-block-text {
-  width: 688px;
-  height: 746px;
+  width: 668px;
+  height: 796px;
   background-color: #FFFFFF;
   border-radius: 20px;
   margin-top: 20px;
   margin-left: 20px;
+  padding-right: 20px;
 }
 
 .rent-title {
@@ -126,7 +127,7 @@ html {
 @media (max-width: 559px) {
   .fifth-block {
     width: 330px;
-    height: 1248px;
+    height: 1273px;
     background-color: #F3F2FF;
     border-radius: 20px;
     display: flex;
@@ -147,10 +148,11 @@ html {
     box-sizing: border-box;
     margin: 10px auto;
   }
+
   .fifth-block-text {
-    width: 310px;
+    width: 290px;
     margin: auto;
-    height: 608px;
+    height: 638px;
   }
   .fifth-block-1 {
     font-weight: 600;
@@ -247,7 +249,7 @@ html {
 @media (min-width: 560px) and (max-width: 768px) {
   .fifth-block {
     width: 560px;
-    height: 1575px;
+    height: 1615px;
     flex-direction: column;
   }
   .fifth-block-slider {
@@ -256,8 +258,8 @@ html {
     margin: 15px auto;
   }
   .fifth-block-text {
-    width: 530px;
-    height: 960px;
+    width: 510px;
+    height: 1000px;
     margin: 15px auto;
   }
   .fifth-block-1 {
