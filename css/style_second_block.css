@@ -60,6 +60,7 @@ html {
     position: relative;
     top: 110px;
     left: 500px;
+    width: 500px;
   }
 
   .second-block-list {
