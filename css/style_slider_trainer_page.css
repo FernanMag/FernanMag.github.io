@@ -30,32 +30,39 @@
 
 .popup-review-list {
   padding-bottom: 140px;
+  padding-right: 10px;
 }
 .swiper-button-disabled {
   opacity: 30%;
 }
-#map {
-  width:1150px;
-  height:454px;
-  border-radius:20px;
-  margin-left: 20px;
-  margin-top: 20px;
-}
-@media (min-width: 320px) and (max-width: 560px) {
-  #map {
-    width:300px;
-    height:230px;
-    border-radius:20px;
-    margin-left: 15px;
-    margin-top: 15px;
+@media (min-width: 769px) and (max-width: 949px) {
+  .arrows-trainer-1 {
+    left: 635px
   }
+}
+@media (max-width: 560px) {
+
   .wrapper {
     margin-left: 0;
     margin-bottom: 10px;
+    width: 310px;
+    padding-right: 10px;
+  }
+  .popup-review-slider-line {
+    width: 310px;
   }
   .arrows-trainer-1 {
     left: 220px;
     top: 650px;
     position: absolute;
+  }
+}
+@media (min-width: 560px) and (max-width: 768px) {
+
+  .arrows-trainer-1 {
+    left: 450px;
+  }
+  .wrapper{
+    margin-left: 10px;
   }
 }

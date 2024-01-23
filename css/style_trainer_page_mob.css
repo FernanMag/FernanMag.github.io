@@ -24,7 +24,7 @@ html {
 
 
 
-@media (min-width: 320px) and (max-width: 560px) {
+@media (max-width: 559px) {
   .trainer-block {
     width: 336px;
     height: 1498px;
@@ -108,7 +108,7 @@ html {
   }
   .popup-trainer {
     width: 330px;
-    height: 1036px;
+    height: 1041px;
     overflow: hidden;
   }
   .popup-trainer-name {
@@ -274,5 +274,212 @@ html {
   .popup-review-close-button {
     top: 15px;
     left: 300px
+  }
+}
+
+
+
+
+
+
+@media (min-width: 950px) and (max-width: 1190px) {
+  .trainer-page-title {
+    width: 950px;
+    font-size: 56px;
+  }
+  .trainer-block {
+    width: 950px;
+    justify-content: space-around;
+    height: 1650px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 949px) {
+  .trainer-page-title {
+    width: 770px;
+    font-size: 46px;
+  }
+  .trainer-block {
+    width: 770px;
+    justify-content: space-around;
+    height: 2200px;
+  }
+  .popup-trainer {
+    width: 770px;
+    height: 1056px;
+    overflow: hidden;
+  }
+  .img-trainer-popup {
+    margin-left: 470px;
+  }
+  .popup-trainer-name, .popup-trainer-prof, .popup-trainer-spec-title, .popup-trainer-spec, .popup-trainer-education-title, .popup-trainer-education {
+    width: 450px;
+  }
+  .x-mark-popup {
+    padding-top: 15px;
+    margin-left: 720px;
+  }
+  .popup-review-window {
+    width: 770px;
+    display: flex;
+    flex-direction: column;
+  }
+  #popup-review-window {
+    width: 760px;
+    grid-gap: 20px
+  }
+  .popup-review-form-elements {
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  .popup-review-otzyv, .popup-review-phone, .popup-review-name {
+    width: 690px;
+    margin-top: 0;
+  }
+  .popup-review-otzyv {
+    height: 154px;
+  }
+  .popup-review-button-send {
+    margin-top: 15px;
+    padding: 12px 25px 15px 25px;
+  }
+
+}
+@media (min-width: 560px) and (max-width: 768px) {
+  .trainer-block {
+    width: 560px;
+    height: 2198px;
+    align-content: space-between;
+    gap: 20px;
+    margin: auto;
+  }
+  .trainer-cart {
+    width: 270px;
+  }
+  .trainer-page-title {
+    width: 560px;
+    font-size: 38px;
+
+  }
+  .popup-trainer {
+    width: 560px;
+    height: 1100px;
+    overflow: hidden;
+  }
+  .trainer-cart-img img {
+    width: 233px;
+  }
+  .popup-trainer-down-title {
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 0;
+    margin-top: 20px;
+  }
+  .popup-trainer-up {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  .img-trainer-popup {
+    order: 1;
+    margin-left: 0px;
+    width: 198px;
+    height: 254px;
+    position: relative;!important;
+  }
+  .br {
+    display: none;
+  }
+  .popup-trainer-name {
+    font-size: 24px;
+    line-height: 22px;
+    font-weight: 700;
+    width: 282px;
+    height: 44px;
+    position: absolute;
+    left: 250px;
+    top: 60px
+  }
+  .popup-trainer-prof {
+    font-size: 16px;
+    line-height: 16.94px;
+    font-weight: 600;
+    width: 282px;
+    height: 44px;
+    position: absolute;
+    left: 250px;
+    top: 150px
+  }
+  .popup-trainer-spec-title {
+    order: 2
+  }
+  .popup-trainer-spec {
+    order: 3
+  }
+  .popup-trainer-education-title {
+    order: 4
+  }
+  .popup-trainer-education {
+    order: 5
+  }
+  .popup-trainer-achieve-title {
+    order: 6
+  }
+  .popup-trainer-achieve {
+    order: 7
+  }
+  .popup-trainer-exp-title {
+    order: 8
+  }
+  .popup-trainer-exp {
+    order: 9
+  }
+  .x-mark-popup {
+    margin-left: 520px;
+  }
+  .popup-review-button {
+    height: 44px;
+    width: 155px;
+    margin-left: 20px;
+    padding-top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .popup-review-up {
+    margin-left: 20px;
+  }
+  #popup-review-window {
+    width: 550px;
+    height: 497px;
+  }
+  .popup-review-name {
+    width: 500px;
+  }
+  .popup-review-phone {
+    width: 500px;
+  }
+  .popup-review-otzyv {
+    width: 500px;
+    margin-top: 0px;
+  }
+  .popup-review-form-elements {
+    width: 560px;
+    flex-direction: column;
+    grid-gap: 10px;
+    margin-left: 20px;
+  }
+  .popup-review-window {
+    width: 560px;
+  }
+  .popup-review-button-send {
+    margin-top: 15px;
+    padding: 12px 25px 15px 25px;
+    margin-left: 20px;
+  }
+  .popup-review-close-button {
+    top: 15px;
+    left: 530px
   }
 }

@@ -20,6 +20,7 @@ html {
   line-height: 1.4;
   font-family: "Inter-Regular", "Inter-SemiBold", sans-serif;
   font-weight: 400;
+  min-width: 320px;
 }
 .align-all-trainers-page {
   display: flex;

@@ -21,6 +21,7 @@ html {
   font-family: "Inter-Regular", "Inter-SemiBold", sans-serif;
   font-weight: 400;
 }
+
 .footer {
   width: 1191px;
   height: 87px;
@@ -69,19 +70,90 @@ html {
   margin-top: 20px;
   margin-left: 430px;
 }
-.impulse-logo-svg svg {
-  width: 127px;
-  height: 26px;
-}
-@media (min-width: 320px) and (max-width: 560px) {
+
+@media (min-width: 769px) and (max-width: 949px) {
   .footer {
-    width: 335px;
-    height: 89px;
+    width: 770px;
+    height: 87px;
+  }
+  .footer-links {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    grid-gap: 25px;
+    width: auto;
+    height: 100%;
+    margin-top: 0;
+    margin-left: 25px;
+  }
+  .logo-impulse {
+    margin-left: 170px;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 950px) and (max-width: 1190px) {
+  .footer {
+    width: 950px;
+    height: 87px;
+    background-color: #F3F2FF;
+    border-radius: 20px;
+    display: flex;
+
+  }
+
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    grid-gap: 30px;
+    width: 505px;
+    height: 16px;
+
+  }
+  .logo-impulse {
+    margin-left: 280px;
+    margin-top: 20px;
+  }
+}
+@media (min-width: 560px) and (max-width: 768px) {
+  .footer {
+    width: 560px;
+    height: 114px;
   }
   .footer-links {
     flex-direction: column;
     flex-wrap: nowrap;
-    width: 187px;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 15px;
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 350px;
+  }
+  .footer-link {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .logo-impulse {
+    margin: auto 20px;
+  }
+  .impulse-logo-svg svg {
+    width: 94px;
+    height: 22px;
+  }
+}
+@media  (max-width: 559px) {
+  .footer {
+    width: 335px;
+    height: 89px;
+    border-radius: 15px;
+  }
+  .footer-links {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 172px;
     height: 59px;
     margin-top: 15px;
     margin-left: 15px;
@@ -90,7 +162,7 @@ html {
     font-weight: 400;
     font-size: 10px;
     line-height: 13px;
-    width: 187px;
+    width: 172px;
   }
   .logo-impulse {
     margin: auto;

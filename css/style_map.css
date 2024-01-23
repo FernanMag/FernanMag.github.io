@@ -1,0 +1,65 @@
+
+@font-family {
+  font-family: 'Inter-Regular';
+  src: local('Inter-Regular');
+  url("./fonts/Inter-Regular.woff");
+}
+
+@font-face {
+  font-family: 'Inter-SemiBold';
+  src: local('Inter-SemiBold');
+  url("./fonts/Inter-SemiBold.woff");
+}
+
+@font-face {
+  font-family: 'BebasNeueBold';
+  src: local('BebasNeueBold');
+url("./fonts/BebasNeueBold.woff");
+}
+@media (min-width: 1191px) {
+  #map {
+    width:1150px;
+    height:454px;
+    border-radius:20px;
+    margin-left: 20px;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 560px) and (max-width: 768px) {
+  #map {
+    width:520px;
+    height:300px;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius:20px;
+  }
+}
+@media (min-width: 769px) and (max-width: 949px) {
+  #map {
+    width:740px;
+    height:295px;
+    margin-left: 15px;
+    margin-top: 15px;
+    border-radius:20px;
+  }
+}
+@media (min-width: 950px) and (max-width: 1190px) {
+  #map {
+    width:910px;
+    height:400px;
+    margin-left: 20px;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    border-radius:20px;
+  }
+}
+@media (max-width: 559px) {
+  #map {
+    width:300px;
+    height:230px;
+    border-radius:20px;
+    margin-left: 15px;
+    margin-top: 15px;
+  }
+}

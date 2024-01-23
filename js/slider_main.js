@@ -69,22 +69,11 @@ wrapper3 = new Swiper('.image-slider-3', {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 var map;
 DG.then(function() {
   map = DG.map('map', {
     'center': [43.168484, 131.92575],
-    'zoom': 16
+    'zoom': 15
   });
   myIcon = DG.icon({
     iconUrl: 'https://cdn-icons-png.flaticon.com/512/25/25613.png',

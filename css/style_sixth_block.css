@@ -136,7 +136,7 @@ html {
   margin-top: 30px;
   cursor: pointer;
 }
-@media (min-width: 320px) and (max-width: 560px) {
+@media (max-width: 559px) {
   .sixth-block {
     width: 330px;
     height: 1298px;
@@ -232,5 +232,96 @@ html {
     width: 180px;
     height: 49px;
     margin-top: 15px;
+  }
+}
+@media (min-width: 950px) and (max-width: 1190px) {
+  .sixth-block {
+    width: 950px;
+    height: 768px;
+    display: flex;
+    flex-direction: row;
+  }
+  .sixth-block-second-block {
+    margin-right: 15px;
+  }
+  .sixth-block-text-1, .sixth-block-text-2, .sixth-block-text-3, .sixth-block-text-4 {
+    margin-right: 15px;
+  }
+  .sixth-block-first {
+    width: 425px;
+    height: 758px;
+    border-radius: 15px;
+  }
+  .sixth-block-img {
+    width: 405px;
+    height: 738px;
+    margin: 10px 10px auto;
+  }
+  .sixth-block-second {
+    width: 505px;
+    height: 758px;
+  }
+}
+@media (min-width: 769px) and (max-width: 949px) {
+  .sixth-block {
+    width: 770px;
+    height: 1298px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sixth-block-first {
+    width: 770px;
+    height: 653px;
+    border-radius: 15px;
+  }
+  .sixth-block-img {
+    width: 740px;
+    height: 623px;
+    margin: 15px 15px auto;
+  }
+  .sixth-block-second {
+    width: 770px;
+    height: 583px;
+  }
+}
+@media (min-width: 560px) and (max-width: 768px) {
+  .sixth-block {
+    width: 560px;
+    height: 1198px;
+    display: flex;
+    flex-direction: column;
+  }
+  .sixth-block-first {
+    width: 560px;
+    height: 483px;
+    border-radius: 15px;
+  }
+  .sixth-block-second {
+    width: 560px;
+    height: 685px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+  }
+  .sixth-block-img {
+    width: 530px;
+    height: 453px;
+    margin: 15px 15px auto;
+  }
+  .sixth-block-text-1, .sixth-block-text-2, .sixth-block-text-3, .sixth-block-text-4 {
+    font-size: 16px;
+    margin-right: 20px;
+  }
+  .sixth-block-text-5 {
+    font-size: 18px
+  }
+  .sixth-block-first-block {
+    padding: 16px 0px 15px 20px;
+  }
+  .sixth-block-second-block {
+    margin-right: 20px;
+  }
+  .sixth-block-button {
+    margin-top: 10px
   }
 }

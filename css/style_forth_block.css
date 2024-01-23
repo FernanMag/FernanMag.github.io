@@ -101,7 +101,7 @@ html {
   margin-bottom: 30px;
 }
 
-@media (min-width: 320px) and (max-width: 560px) {
+@media (max-width: 559px) {
   .forth-block {
     width: 330px;
     height: 898px;
@@ -119,5 +119,71 @@ html {
     width: 310px;
     height: 298px;
     margin: auto;
+  }
+}
+@media (min-width: 950px) and (max-width: 1190px) {
+  .forth-block {
+    width: 950px;
+    height: 555px;
+    background-color: #F3F2FF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .forth-block-slider {
+    width: 443px;
+    height: 515px;
+    margin-left: 15px;
+  }
+  .forth-block-text {
+    width: 460px;
+    height: 270px;
+    margin-left: 15px;
+  }
+}
+@media (min-width: 769px) and (max-width: 949px) {
+  .forth-block {
+    width: 770px;
+    height: 1058px;
+    background-color: #F3F2FF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .forth-block-slider {
+    width: 740px;
+    height: 720px;
+    margin-left: 15px;
+  }
+  .forth-block-text {
+    width: 740px;
+    height: 280px;
+    margin-left: 15px;
+  }
+}
+@media (min-width: 560px) and (max-width: 768px) {
+  .forth-block {
+    width: 560px;
+    height: 838px;
+    flex-direction: column;
+    margin: auto;
+  }
+  .forth-block-slider {
+    width: 530px;
+    height: 523px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin: 15px auto;
+  }
+  .forth-block-text {
+    width: 530px;
+    height: 260px;
+    margin: auto;
+  }
+  .forth-block-list {
+    font-size: 16px;
+    margin-bottom: -15px;
   }
 }

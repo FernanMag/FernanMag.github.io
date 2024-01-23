@@ -123,7 +123,7 @@ html {
   margin-right: 250px;
 }
 
-@media (min-width: 320px) and (max-width: 560px) {
+@media (max-width: 559px) {
   .fifth-block {
     width: 330px;
     height: 1248px;
@@ -175,7 +175,7 @@ html {
   .fifth-block-button {
     margin-top: 10px;
   }
-  .second-offers-title{
+  .second-offers-title {
     text-transform: uppercase;
     color: #312783;
     font-weight: 700;
@@ -186,6 +186,90 @@ html {
     justify-content: center;
     width: 320px;
     margin: 0 0 0 10px;
-
+  }
+}
+@media (min-width: 950px) and (max-width: 1190px) {
+  .fifth-block {
+    width: 950px;
+    height: 1253px;
+    background-color: #F3F2FF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+  .fifth-block-slider {
+    width: 443px;
+    height: 555px;
+    margin-left: 15px;
+  }
+  .fifth-block-text {
+    width: 425px;
+    height: 1210px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .second-offers-title {
+    width: 920px;
+    font-size: 46px;
+    line-height: 54.2px;
+    margin: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 949px) {
+  .fifth-block {
+    width: 770px;
+    height: 1518px;
+    background-color: #F3F2FF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+  }
+  .fifth-block-slider {
+    width: 740px;
+    height: 710px;
+    margin-left: 15px;
+  }
+  .fifth-block-text {
+    width: 700px;
+    height: 750px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .second-offers-title {
+    width: 740px;
+    font-size: 42px;
+    line-height: 64.2px;
+    margin: auto;
+  }
+}
+@media (min-width: 560px) and (max-width: 768px) {
+  .fifth-block {
+    width: 560px;
+    height: 1575px;
+    flex-direction: column;
+  }
+  .fifth-block-slider {
+    width: 530px;
+    height: 557px;
+    margin: 15px auto;
+  }
+  .fifth-block-text {
+    width: 530px;
+    height: 960px;
+    margin: 15px auto;
+  }
+  .fifth-block-1 {
+    line-height: 18px;
+  }
+  .second-offers-title {
+    width: 530px;
+    margin: auto;
+    font-size: 38px;
+    line-height: 54.2px;
+  }
+  .fifth-block-text-block {
+    margin-right: 20px;
   }
 }
