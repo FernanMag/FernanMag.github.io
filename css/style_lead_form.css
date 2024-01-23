@@ -116,7 +116,7 @@
 @media (min-width: 320px) and (max-width: 560px) {
   .lead_form_styles {
     width: 330px;
-    height: 330px;
+    height: 360px;
   }
   .lead-form-name {
     padding-left: 10px;
